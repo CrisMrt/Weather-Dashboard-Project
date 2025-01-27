@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+label{
+    font-size: 12pt;
+    color: #3f3f3f;
+   
+}
+
+input{
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    border-radius: 5pt;
+    border: solid 1px #6b6b6b;
+    line-height: 20pt;
+    width: 200pt;
+    margin-bottom: 20pt;
+    margin-top: 5pt;
+}
+
+.formulario{
+    height: 100vh;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    
+}
+
+button{
+    padding: 10pt;
+    width: 100pt;
+    border-radius: 5pt;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}

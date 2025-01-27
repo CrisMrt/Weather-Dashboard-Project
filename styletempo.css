@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: #272727;
+}
+
+/* -------------------------------- top  --------------------------*/
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cidadeTemperatura h2{
+    font-size: 60pt;
+    color: #791010;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cidadeTemperatura p{
+    color: #6b6b6b;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+}
+
+
+.top{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height:20vh;
+    background-color: #3a3a3a;
+    padding-top: 16pt;
+    padding-bottom: 16pt;
+    align-items: center;
+}
+
+.left{
+    display:  grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+
+.icondia img{
+    width: 100%;
+}
+
+.right{
+    display:  grid;
+    grid-template-columns: 80% 20%;
+}
+
+.diashoras{
+    display: grid;
+    grid-template-columns:20% 20% 20% 20%;
+    column-gap: 20pt;
+}
+
+.quadrodia{
+    padding: 10pt;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+.quadrodia p{
+    text-align: center;
+    color: white;
+}
+
+.quadrodia img{
+    width: 100%;
+}
+
+
+.proximos_dias{
+    background-color: #131313;
+    color:white;
+    text-align: center;
+    margin-right: 30pt;
+    padding-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+.proximos_dias h3{
+    color: #d00b53;
+    font-size: 12pt;
+    margin-bottom: 10pt;
+    margin-top: 16pt;
+}
+
+.diasfuturos li{
+   display: inline;
+   margin-left: 10pt;
+   
+}
+
+.proximos_dias a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.proximos_dias a:hover{
+    color: #ed28b5;
+}
+
+.outras_cidades{
+    height: 40pt;
+    background-color: #737373;
+    color: #ed28b5;
+    text-transform: uppercase;
+}
+
+.outras_cidades ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10pt;
+    font-weight: 700;
+    font-size: 10pt;
+    list-style: none;
+}
+
+.outras_cidades a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.outras_cidades a:hover{
+    color: #ed28b5;
+    border-bottom: solid 3pt #dbdbdb;
+    padding-bottom: 4pt;
+}
+
+.pesquisa {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    background-color: #3a3a3a;
+    height: 40pt;
+}
+
+.pesquisa input{
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    border-radius: 5pt;
+    border: none;
+    line-height: 16pt;
+    background-color: #737373;
+    font-size: 12pt;
+    width: 70%;
+    margin-right: 20pt;
+
+}
+
+
+.pesquisa input[type="text"]:focus{
+    outline: solid 1pt #968f92;
+    background-color: rgb(26, 26, 26);;
+    color: rgb(216, 216, 216);
+   
+  }
+
+.label{
+    margin-left: 30pt;
+    color: white;
+}
+
+
+
+.pesquisa button{
+    padding: 4pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    width: 20%;
+    height: 80%;
+    border-radius: 5pt;
+    border: 0;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+
+.pesquisa button:hover{
+    background-color: #757474;
+    color: white;
+}
+
+
+.principal{
+    padding: 20pt;
+    padding-top: 20pt;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #131313;
+    padding-left: 30pt;
+    max-height: 300px;
+    padding-bottom: 40pt;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.cidade{
+    color: #791010;
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+
+.informacoes{
+    display: grid;
+    padding-top: 20pt;
+    grid-template-columns: 50% 50%;
+}
+
+.informacoes p{
+    color: #737373;
+    font-size: 12pt;
+    margin-bottom: 4pt;
+}
+
+.condicoes{
+    margin-top: 10pt;
+    color: #ffffff;
+    font-size: 12pt;
+    margin-bottom: 10pt;
+}
+
+
+.dados{
+    color:  #ffffff;
+    font-size: 12pt;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.imagem{
+    padding-right: 30pt;
+}
+
+.noticias{
+    padding: 30pt;
+}
+
+.grelhanoticias{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20pt;
+    row-gap: 30pt;
+}
+
+.cartaonoticias {
+    background-color: #dbdbdb;
+    border-radius: 5pt;
+    border: none;
+    padding: 10pt;
+    position: relative;
+}
+
+.img_noticia{
+    height: 160pt;
+    margin-bottom: 10pt;
+}
+
+.cartaonoticias img{
+    border-radius: 4pt;
+    width: 100%;
+}
+
+.cartaonoticias .titulo{
+    margin-top: 3pt;
+    font-size: 10pt;
+    color: #3a3a3a;
+    font-weight: 600;
+    margin-bottom: 5pt;
+}
+
+.data{
+    font-size: 12pt;
+    color: rgb(51, 3, 3);
+}
+
+.datacor{
+    font-size: 10pt;
+    color: #2e2d2e;
+}
+
+.desenvolvimento{
+    color: #3a3a3a;
+    font-size: 9pt;
+    margin-bottom: 8pt;
+}
+
+.fontenoticia{
+    font-size: 8pt;
+    color: #6d6d6d;
+}   
+
