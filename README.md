@@ -38,21 +38,6 @@ This project is a dynamic weather dashboard that uses APIs to fetch and display 
 3. Navigate between cities using the predefined city links.
 4. View hourly and daily forecasts to plan your day effectively.
 
-## Screenshots
-### Home Page
-![Home Page](template.png)
-### Forecast Section
-![Forecast Section](cidade.png)
-
-## Future Improvements
-- Add user authentication to save favorite cities.
-- Incorporate a wider range of weather details like air quality and UV index.
-- Improve accessibility features for better usability.
-
-## Credits
-- Weather API: [OpenWeatherMap](https://openweathermap.org/) or similar services.
-- Design Inspiration: Custom design with CSS grid and flexbox.
-
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code as per the license terms.
 
